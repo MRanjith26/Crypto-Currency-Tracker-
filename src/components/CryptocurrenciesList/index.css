@@ -1,0 +1,79 @@
+/* Write your CSS code here */
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.list-title {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #00e7ff;
+}
+@media screen and (min-width: 768px) {
+  .list-title {
+    font-size: 35px;
+  }
+}
+.main-img {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .main-img {
+    width: 700px;
+  }
+}
+.crypto-list-container {
+  border: 4px solid #00e7ff;
+  border-radius: 10px;
+  list-style-type: none;
+  font-family: 'Roboto';
+  padding: 0px;
+  width: 300px;
+}
+@media screen and (min-width: 768px) {
+  .crypto-list-container {
+    width: 700px;
+  }
+}
+.crypto-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #092e33;
+  padding: 0px 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .crypto-head {
+    padding: 0px 30px;
+  }
+}
+.coin-values {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+
+.head {
+  color: #ffffff;
+  font-size: 15px;
+}
+@media screen and (min-width: 768px) {
+  .head {
+    font-size: 20px;
+  }
+}
+.values {
+  font-size: 15px;
+  padding: 0px 15px;
+}
+@media screen and (min-width: 768px) {
+  .values {
+    font-size: 20px;
+    padding: 0px 25px;
+  }
+}

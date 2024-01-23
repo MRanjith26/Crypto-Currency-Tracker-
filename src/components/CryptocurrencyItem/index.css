@@ -1,0 +1,56 @@
+/* Write your CSS code here */
+.crypto-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+}
+@media screen and (min-width: 768px) {
+  .crypto-item {
+    padding: 0px 30px;
+  }
+}
+.name-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+@media screen and (min-width: 768px) {
+  .name-container {
+    gap: 15px;
+  }
+}
+.currency-logo {
+  width: 25px;
+}
+@media screen and (min-width: 768px) {
+  .currency-logo {
+    width: 30px;
+  }
+}
+.currency-name {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .currency-name {
+    font-size: 15px;
+  }
+}
+.price {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+  padding: 0px 15px;
+  text-align: flex-end;
+}
+@media screen and (min-width: 768px) {
+  .price {
+    padding: 0px 25px;
+    text-align: center;
+  }
+}
